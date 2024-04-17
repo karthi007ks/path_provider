@@ -1,0 +1,307 @@
+body {
+    font-family: 'Poppins regular', sans-serif;
+
+}
+
+.logo {
+    width: 167px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black-color);
+
+
+
+}
+
+
+.features {
+
+    padding: 10px 20px;
+    margin-left: 37px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-weight: 500;
+    transition: background-color 0.9s ease;
+    -webkit-transition: background-color 0.9s ease;
+    -moz-transition: background-color 0.9s ease;
+    -ms-transition: background-color 0.9s ease;
+    -o-transition: background-color 0.9s ease;
+    font-family: 'Poppins medium', sans-serif;
+    font-weight: 500;
+}
+
+.option:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+
+
+
+}
+
+.home {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-right: 64px;
+    padding-left: 64px;
+
+}
+
+ul {
+    display: flex;
+}
+
+.discoverstage {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.discoverhead {
+    color: var(--white-color);
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 112px;
+    font-size:36px;
+    font-family: 'Poppins bold', sans-serif;
+    font-weight:bold;
+}
+
+.discoverbutton {
+    padding: 15px 15px;
+    background-color: var(--white-color);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 206px;
+
+}
+
+.discoverdetails {
+    color: var(--white-color);
+    margin-bottom: 15px;
+    max-width: 700px;
+    text-align: center;
+    font-size:18px;
+}
+
+.discoveroption {
+    text-align: center;
+}
+
+.headpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondsec{
+    padding-bottom:100px;
+}
+span{
+    color:var(--primary-color);
+}
+.explorehead{
+    margin-top:90px;
+    font-size:36px;
+    font-family: 'Poppins bold', sans-serif;
+    font-weight:bold;
+    text-align: center;
+}
+.suggesticon{
+    max-width:81px;
+    max-height:81px;
+    margin-bottom:15px;
+
+}
+.suggesthead{
+    
+    font-size:18px;
+    margin-bottom:15px;
+    font-family: 'Poppins Semibold', sans-serif; 
+    font-weight:600;
+    text-align:center;
+}
+.suggestdetails{
+    max-width:350px;
+    font-size:16px;
+    text-align: center;
+}
+.mobileoptions{
+    display:flex;
+    justify-content: space-evenly;
+    gap:64px;
+    margin-top:40px;
+    
+
+    /* margin-left:64px; */
+}
+.suggeststage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.customizedstage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.selectionstage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+
+}
+.schoolsection{
+    background-color:var(--background-color);
+    padding-top:90px;
+}
+.school{
+    max-width:395px;
+    max-height:387px;
+    margin-right:124px;
+}
+.schoolhead{
+    font-size:36px;
+    margin-bottom:15px;
+}
+.schooldetails{
+    font-size:18px;
+    max-width:600px;
+    margin-bottom:15px;
+}
+.subhead{
+    font-size:16px;
+    font-family: 'Poppins medium', sans-serif;
+    font-weight:550;
+    margin-bottom:15px;
+}
+.bi-check-circle-fill{
+    color:var(--primary-color);
+    /* font-size:24px; */
+}
+.schoolstage{
+    display:flex;
+    margin-left:64px;
+align-items: center;
+padding-bottom:77px;
+}
+.collegedetails{
+    text-align: justify;
+    max-width:500px;
+    margin-right:106px;
+}
+.college{
+    max-width:542px;
+    max-height:326px;
+}
+.collegestage{
+    display: flex;
+    align-items: center;
+    margin-left:64px;
+    margin-top:90px;
+    padding-bottom:102px;
+}
+.jobsection{
+    background-color:var(--background-color);
+    padding-top:90px;
+    padding-bottom:106px;
+}
+
+.jobstage{
+    display: flex;
+    align-items: center;
+    /* margin-top:90px; */
+    margin-left:64px;
+}
+.job{
+    max-width:542px;
+    max-height:303px;
+    margin-right:106px;
+}
+.jobdeatails{
+    max-width:500px;
+    text-align: justify;
+}
+
+.footerlogo{
+    max-width:167px;
+    margin-bottom:15px;
+}
+.appdetails{
+    font-size:16px;
+    max-width:400px;
+}
+.footerstage{
+    margin-left:64px;
+    margin-right:164px;
+    margin-top:90px;
+}
+.media{
+    font-size:24px;
+    margin-right:16px;
+}
+.link{
+    font-size:24px;
+    color:var(--primary-color);
+    font-family: 'Poppins Semibold', sans-serif; 
+    font-weight:600;
+
+}
+.linkhead{
+margin-bottom:10px;
+}
+.linkoptions{
+    display: flex;
+    gap:50px;
+    margin-top:90px;
+    padding-bottom:125px;
+}
+.footersection{
+    display: flex;
+    
+}
+.linkbutton{
+    font-size:16px;
+    font-family: 'Poppins medium', sans-serif;
+    font-weight:500;
+     }
+     .hyperlink{
+        margin-bottom:10px;
+     }
+.linkbutton:hover{
+    font-size:17px;
+    font-family: 'Poppins medium', sans-serif;
+    font-weight:500;
+    color: var(--primary-color);
+
+
+}
+
